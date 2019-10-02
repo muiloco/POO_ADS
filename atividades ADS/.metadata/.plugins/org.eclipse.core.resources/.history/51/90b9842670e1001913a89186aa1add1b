@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+
+public class Exemplo03 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		int a = 0;
+		double salario = 0;
+		String nome = "";
+		System.out.print("informe o valor de a:\n");
+		a = sc.nextInt();
+		
+		System.out.print("informe o salário:\n");
+		salario = sc.nextDouble();
+		
+		System.out.println("Informe o nome:\n");
+		nome = sc.next();
+		
+		System.out.println("nome="+nome+" salário="+salario+" valor de a="+a);
+		
+		sc.close();
+	}
+}
