@@ -1,0 +1,19 @@
+import java.math.BigInteger;
+
+public class exercicio17 {
+
+	public static void main(String[] args) {
+		
+		BigInteger graos = 1;
+		BigInteger soma = 0;
+		int casas = 64;
+		for (int i = 1; i <= casas; i++) {
+			soma.
+			soma += graos;
+			graos = graos * 2;
+		}
+		System.out.println("A quantidade de grãos é:"+ soma);
+		
+	}
+	
+}
