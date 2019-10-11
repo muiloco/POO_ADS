@@ -12,5 +12,4 @@ public class exercicio17 {
 		System.out.println("A quantidade de grãos é:"+ soma);
 		
 	}
-	
 }
