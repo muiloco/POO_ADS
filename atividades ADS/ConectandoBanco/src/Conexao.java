@@ -3,12 +3,12 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class Conexao {
-	private String user;
-	private String password;
-	private String host;
-	private String dbName;
-	private String url="jbbc:mysql://"+host+"/"+dbName;
-	
+	private String user = "root";
+	private String password = "";
+	private String host = "127.0.0.1:3308";
+	private String dbName = "Agenda";
+	private String url="jdbc:mysql://"+host+"/"+dbName;
+
 	public Connection conexao = null;
 	
 	public Conexao() {}
