@@ -1,0 +1,52 @@
+<?page title="CadastroAluno" contentType="text/html;charset=UTF-8"?>
+<zk>
+<window title="Cadastro Aluno" border="normal" width="75%" height="75%" closable="true" maximizable="true" sizable="true">
+	<grid>
+		<columns>
+			<column label=""/>
+			<column label=""/>
+		</columns>
+		<rows>
+			<row>
+				<label value="Curso"/>
+				<textbox value="" constraint="no empty"/>
+			</row>
+			<row>
+				<label value="Nome"/>
+				<textbox value="" constraint="no empty"/>
+			</row>
+			<row>
+				<label value="Dt.nasc."/>
+				<textbox value="" constraint="no empty"/>
+			</row>
+			<row>
+				<label value="Fone"/>
+				<textbox value="" constraint="no empty"/>
+			</row>
+			<row>
+				<label value="Celular"/>
+				<textbox value="" constraint="no empty"/>
+			</row>
+			<row>
+				<label value="Turno"/>
+				<combobox>
+					<comboitem label="Matutino"/>
+					<comboitem label="Vespertino"/>
+					<comboitem label="Noturno"/>
+				</combobox>
+				<label value="opção de atividade física"/>
+				<radiogroup>
+					<vbox>
+						<radio label="Futebol society"/>
+						<radio label="Futsal"/>
+						<radio label="Basquete"/>
+						<radio label="Futebol"/>
+						<radio label="Volei"/>
+						<radio label="Natação"/>
+					</vbox>
+				</radiogroup>
+			</row>
+		</rows>
+	</grid>
+</window>
+</zk>

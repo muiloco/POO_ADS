@@ -1,0 +1,9 @@
+<?page title="Exemplo 01"?>
+<window title="Olá Mars!!" border="normal" width="300px" height="200px" closable="true" maximizable="true" sizable="true">
+
+<label value="You are using: ${desktop.webApp.version}"/>
+<separator/>
+<label value="Nome"/>
+<textbox value = "" constraint="no empty : O nome não pode ser vazio. Informe algum valor"/>
+<button label="OK" onClick="" />
+</window>
